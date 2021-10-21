@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a web based CV page about programming skills by Andrew Durnall">
+    <title>Andrew Durnall</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="programstyle.css">
+</head>
+
+<body>
+    <div id="myPage">
+        <!-- this is the image at the top and is different on desktop and mobile -->
+        <picture class="image1">
+            <source srcset="images/programmingwebp.webp" type="image/webp">
+            <source srcset="images/programming.png" type="image/png">
+            <img src="images/programming.png" alt="An example of programming code">
+        </picture>
+        <picture class="image2">
+            <source srcset="images/programming2webp.webp" type="image/webp">
+            <source srcset="images/programming2.png" type="image/png">
+            <img src="images/programming2.png" alt="An example of programming code">
+        </picture>
+        <nav id="mainNav">
+            <!-- the logo below is displayed on desktop but not mobile as to save space i made a second main image with the logo on it already -->
+            <picture id="logo">
+                <source srcset="images/signwebp.webp" type="image/webp">
+                <source srcset="images/sign.png" type="image/png">
+                <img src="images/sign.png" alt="handwritten version of Andrew Durnall">
+            </picture>
+            <ul>
+                <li><a href="index.html">Home/About</a></li>
+                <li><a href="cssskills.html">CSS Skills</a></li>
+                <li><a href="qualifications.html">Qualifications</a></li>
+                <li><a href="programmingskills.html">Programming Skills</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Programming Skills</h1>
+            <p id="description">This section displays my skills in ECMAscript via two additional pages described below. ECMAScript is a standard script language, developed with the cooperation of Netscape and Microsoft and mainly derived from Netscape's JavaScript, the widely-used scripting language that is used in Web pages to affect how they look or behave for the user.</p>
+            
+        </header>
+        <main>
+            <div id="lower">
+                <section class="box">
+                    <h2>Theatre Ticket Booking Form</h2>
+                    <picture>
+                        <source srcset="images/theatrewebp.webp" type="image/webp">
+                        <source srcset="images/theatre.png" type="image/png">
+                        <img src="images/theatre.png" alt="Place Holder">
+                    </picture>
+                    <a href="theatretickets/theatretickets.html">Theatre Tickets</a>
+                    <div>
+                            <p>In this example i have used ECMAScript to create an online booking form for tickets to go to the theatre, this allows users to enter their details and choose a show with how many tickets they need and see the results when the Book button is clicked.</p>
+                    </div>
+                </section>
+                <section class="box">
+                    <h2>Fruit Machine</h2>
+                    <picture>
+                        <source srcset="images/fruitwebp.webp" type="image/webp">
+                        <source srcset="images/fruit.png" type="image/png">
+                        <img src="images/fruit.png" alt="Place Holder">
+                    </picture>
+                    <a href="fruitmachine/fruitmachine.html">Fruit Machine</a>
+                    <div>
+                        <p>In this example i have used ECMAScript to create a virtual fruit machine with 9 fruits that when credits are applied the user can try to win by matching fruits either all the way across or the two most right slots, the user can then collect any winnings and this is displayed on screen.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <Li>Andrew Durnall</Li>
+                <Li>andrewdurnall@googlemail.com</Li>
+                <Li>All Images are Copyright To Andrew Durnall 2019</Li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

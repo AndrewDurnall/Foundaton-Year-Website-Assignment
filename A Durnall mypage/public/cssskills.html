@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a web based CV Page about CSS skills of Andrew Durnall">
+    <title>Andrew Durnall</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cssstyle.css">
+</head>
+
+<body>
+    <div id="myPage">
+        <!-- this is the image at the top and is different on desktop and mobile -->
+        <picture class="image1">
+            <source srcset="images/csswebp.webp" type="image/webp">
+            <source srcset="images/css.png" type="image/png">
+            <img src="images/css.png" alt="An example of css code">
+        </picture>
+        <picture class="image2">
+            <source srcset="images/css2webp.webp" type="image/webp">
+            <source srcset="images/css2.png" type="image/png">
+            <img src="images/css2.png" alt="An example of css code">
+        </picture>
+        <nav id="mainNav">
+            <!-- the logo below is displayed on desktop but not mobile as to save space i made a second main image with the logo on it already -->
+            <picture id="logo">
+                <source srcset="images/signwebp.webp" type="image/webp">
+                <source srcset="images/sign.png" type="image/png">
+                <img src="images/sign.png" alt="handwritten version of Andrew Durnall">
+            </picture>
+            <ul>
+                <li><a href="index.html">Home/About</a></li>
+                <li><a href="cssskills.html">CSS Skills</a></li>
+                <li><a href="qualifications.html">Qualifications</a></li>
+                <li><a href="programmingskills.html">Programming Skills</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>CSS Skills</h1>
+            <p id="description">This section shows how CSS (Cascading Style Sheets) can be used in web development to
+                specify the html documents style with elements such as page layouts, colours and fonts. In this section
+                I designed an identical html document with different images twice, one design is designed for use by
+                children aged 7-9 and the other is designed for use by individuals over 16 years of age.</p>
+        </header>
+        <main>
+            <div id="lower">
+                <section class="box">
+                    <h2>Ages 7-9 Animal Page</h2>
+                    <picture class="image1">
+                        <source srcset="pet79/images/pet79webp.webp" type="image/webp">
+                        <source srcset="pet79/images/pet79.png" type="image/png">
+                        <img src="pet79/images/pet79.png" alt="Page for 7-9 year olds">
+                    </picture>
+                    <picture class="image2">
+                        <source srcset="pet79/images/mob79webp.webp" type="image/webp">
+                        <source srcset="pet79/images/mob79.png.png" type="image/png">
+                        <img src="pet79/images/mob79.png" alt="Page for 7-9 year olds">
+                    </picture>
+                    <div>
+                        <p>This Page was created for ages 7-9 and with that in mind I have used a more humorous banner
+                            image, more colours have been used to identify sections of information for each animal type,
+                            rounded corners have been used on the boxes to create a more cartoon like appearance,
+                            slightly larger font sizes have been used for ease of reading and I have used younger
+                            versions or more colourful versions of the animals in the images to reflect a younger
+                            approach to the page (using a childrens film favourite clown fish in the fish section and
+                            using a brighter coloured lizard image etc.).</p>
+                        <a href="pet79/pet79.html" target="_blank">View the Ages 7-9 Page.</a>
+                    </div>
+                </section>
+                <section class="box">
+                    <h2>Ages 16+ Animal Page</h2>
+                    <picture class="image1">
+                        <source srcset="pet16/images/over16swebp.webp" type="image/webp">
+                        <source srcset="pet16/images/over16s.png" type="image/png">
+                        <img src="pet16/images/over16s.png" alt="Page for 16+ year olds">
+                    </picture>
+                    <picture class="image2">
+                        <source srcset="pet16/images/mob16webp.webp" type="image/webp">
+                        <source srcset="pet16/images/mob16.png" type="image/png">
+                        <img src="pet16/images/mob16.png" alt="Page for 16+ year olds">
+                    </picture>
+                    <div>
+                        <p>This Page was created for ages over 16 and so I have designed the page to only have a few
+                            colours to imply a more mature theme, boxes have square edges to also reflect a more
+                            accurate and precise imagery, older versions of the animals have been used for the majority
+                            to imply an older perspective of the information (Dog and Cat and rabbit are adult in age
+                            and other animals are less bright etc.) and font sizes of the text is smaller to feel more
+                            concise and mature.</p>
+                        <a href="pet16/pet16.html" target="_blank">View the Ages 16+ Page.</a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <Li>Andrew Durnall</Li>
+                <Li>andrewdurnall@googlemail.com</Li>
+                <Li>All Images are Copyright To Andrew Durnall 2019</Li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
